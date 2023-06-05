@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
+#import pandas_profiling
+#from streamlit_pandas_profiling import st_profile_report
 #import numpy as np
 #import plotly as px
 #import plotly.figure_factory as ff
