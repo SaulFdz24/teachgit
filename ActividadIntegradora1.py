@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import pandas_profiling
+from streamlit_pandas_profiling import st_profile_report
 #import numpy as np
 #import plotly as px
 #import plotly.figure_factory as ff
@@ -8,7 +10,7 @@ import pandas as pd
 
 st.title('Police Incident Reports from 2018 to 2020 in San Francisco')
 
-df = pd.read_csv("https://drive.google.com/file/d/1ioUp8979nNLh9h-CYVyJcRgAhxBhCLIm/Police_Department_Incident_Reports__2018_to_Present.csv")
+df = pd.read_csv("https://drive.google.com/drive/folders/1Hd2HOFknGccrm11VSdDp5N9-ADkboWvZ?usp=drive_link/Police_Department_Incident_Reports__2018_to_Present.csv")
 
 st.markdown('The data shown below belongs to incident reports in the city of San Francisco, from the year 2018 to 2020, with details from each case such as date, day of the week, police district, neighborhood in which it happened, type of incident in category and subcategory, exact location and resolution.')
 
