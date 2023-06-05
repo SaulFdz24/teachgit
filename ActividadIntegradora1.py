@@ -14,14 +14,14 @@ st.markdown('The data shown below belongs to incident reports in the city of San
 
 mapa = pd.DataFrame()
 mapa['Date'] = df['Incident Date']
-mapa['Day'] = df['Incident Day of Week']
-mapa['Police District'] = df['Police District']
-mapa['Neighborhood'] = df['Analysis Neighborhood']
-mapa['Incident Category'] = df['Incident Category']
-mapa['Incident Subcategory'] = df['Incident Subcategory']
-mapa['Resolution'] = df['Resolution']
-mapa['lat'] = df['Latitude']
-mapa['lon'] = df['Longitude']
+#mapa['Day'] = df['Incident Day of Week']
+#mapa['Police District'] = df['Police District']
+#mapa['Neighborhood'] = df['Analysis Neighborhood']
+#mapa['Incident Category'] = df['Incident Category']
+#mapa['Incident Subcategory'] = df['Incident Subcategory']
+#mapa['Resolution'] = df['Resolution']
+#mapa['lat'] = df['Latitude']
+#mapa['lon'] = df['Longitude']
 mapa = mapa.dropna()
 
 #subset_data2 = mapa
