@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-st.title('https://drive.google.com/file/d/1ioUp8979nNLh9h-CYVyJcRgAhxBhCLIm/view')
+st.title('https://drive.google.com/file/d/1ioUp8979nNLh9h-CYVyJcRgAhxBhCLIm/view/Police_Department_Incident_Reports__2018_to_Present.csv')
 
 df = pd.read_csv("Police_Department_Incident_Reports__2018_to_Present.csv")
 st.dataframe(df)
