@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-st.title('Police Incident Reports from 2018 to 2020 in San Francisco')
+st.title('The Police Incident Reports from 2018 to 2020 in San Francisco')
 
 df = pd.read_csv("https://drive.google.com/file/d/1sUXMxryvguQp81yseLxYymTX5RxaH0e9/view?usp=drive_link/Police_Department_Incident_Reports__2018_to_Present.csv")
 
