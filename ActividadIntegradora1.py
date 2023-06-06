@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 
-url = ' https://drive.google.com/drive/u/0/folders/1Hd2HOFknGccrm11VSdDp5N9-ADkboWvZ'
-path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
+url = 'https://drive.google.com/file/d/1WQ5QFkP9S1FfpAxCTxQpzWKEP5lD67uL/view?usp=drive_link'
+path = 'https://drive.google.com/drive/u/0/folders/1Hd2HOFknGccrm11VSdDp5N9-ADkboWvZ'+url.split('/')[-2]
 st.title('Police Incident Reports from 2018 to 2020 in San Francisco')
 
 df = pd.read_csv(path)
