@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
+import xarray as xr
 
-
+xarr = read_noaa("NOAA_V5_air_temperature_anomaly.nc")
 st.title('Police Incident Reports from 2018 to 2020 in San Francisco')
 
 df = pd.read_csv("https://drive.google.com/file/d/1ioUp8979nNLh9h-CYVyJcRgAhxBhCLIm/view")
